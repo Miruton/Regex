@@ -1,0 +1,9 @@
+import re
+haRegex = re.compile('(Ha){3}')
+mo1 = haRegex.search('HaHaHa')
+mo1.group()
+'HaHaHa'
+Hash = re.compile('(Ha){3,}')
+tra = Hash.search('HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa')
+tra.group()
+'HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
